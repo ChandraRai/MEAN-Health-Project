@@ -10,14 +10,14 @@ import { NgForm } from "@angular/forms";
   styleUrls: ["./patient-clinic-update.component.css"]
 })
 export class PatientClinicUpdateComponent implements OnInit {
-  private clinic = new Clinic();
-  private patientId: string;
-  private _id: string;
+  public clinic = new Clinic();
+  public patientId: string;
+  public _id: string;
 
   constructor(
-    private route: ActivatedRoute,
-    private clinicService: ClinicService,
-    private router: Router
+    public route: ActivatedRoute,
+    public clinicService: ClinicService,
+    public router: Router
   ) {}
 
   ngOnInit() {

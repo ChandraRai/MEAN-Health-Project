@@ -17,9 +17,9 @@ export class PatientDetailsComponent implements OnInit {
   //title: String;
 
   constructor(
-    private route: ActivatedRoute,
-    private router: Router,
-    private clinicService: ClinicService
+    public route: ActivatedRoute,
+    public router: Router,
+    public clinicService: ClinicService
   ) {}
 
   ngOnInit() {

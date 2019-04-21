@@ -11,9 +11,9 @@ export class VideosComponent {
   playerVars = {
     cc_lang_pref: "en"
   };
-  private videos;
-  private player;
-  private ytEvent;
+  public videos;
+  public player;
+  public ytEvent;
 
   constructor() {
     this.videos = videos;
